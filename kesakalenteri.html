@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesäkalenteri</title>
+
+    <link rel="stylesheet" href="kesakalenteri.css">
+</head>
+<body>
+    <h1>Kesäkalenteri 2024</h1>
+    
+    <input class="nappi1" value="Nappi" type="button" onclick="vko1()">
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Otsikko</h2>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolor similique fugiat illo unde, repellendus eius ipsam esse quia maxime impedit magni 
+                 praesentium obcaecati. Accusantium aperiam adipisci maiores voluptate temporibus vero.</p>
+        </div></div>
+    
+    <script>
+        let modal = document.getElementById("myModal");
+
+        let span = document.getElementsByClassName("close")[0];
+
+        function vko1(){
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+    </script>
+
+
+</body>
+</html>
