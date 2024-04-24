@@ -9,6 +9,8 @@ function vko1(){
 }
 function vko2(){
     modal1.style.display = "block";
+
+    document.getElementById("sisalto").innerHTML = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique fugiat illo unde, repellendus eius ipsam esse quia maxime impedit magni praesentium obcaecati. Accusantium aperiam adipisci maiores voluptate temporibus vero.</p>"
 }
 
 
