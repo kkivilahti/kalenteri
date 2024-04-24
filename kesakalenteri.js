@@ -4,13 +4,13 @@ let modal1 = document.getElementById("myModal1");
 // Avaa pop upin
 function vko1(){
     modal.style.display = "block";
-
-    document.getElementById("sisalto").innerHTML = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique fugiat illo unde, repellendus eius ipsam esse quia maxime impedit magni praesentium obcaecati. Accusantium aperiam adipisci maiores voluptate temporibus vero.</p>"
+    document.getElementById("menovinkki").innerHTML = "Otsikko 1";
+    document.getElementById("sisalto").innerHTML = "Testi 1";
 }
 function vko2(){
     modal1.style.display = "block";
-
-    document.getElementById("sisalto").innerHTML = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique fugiat illo unde, repellendus eius ipsam esse quia maxime impedit magni praesentium obcaecati. Accusantium aperiam adipisci maiores voluptate temporibus vero.</p>"
+    document.getElementById("menovinkki").innerHTML = "Otsikko 2";
+    document.getElementById("sisalto").innerHTML = "Testi 2"
 }
 
 
