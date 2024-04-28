@@ -9,13 +9,33 @@
 </head>
 <body>
     <h1>Kesäkalenteri 2024</h1>
-    
-<div>
-    <input class="nappi" value="Viikko 1" type="button" onclick="vko1()">
-    <input class="nappi1" value="Viikko 2" type="button" onclick="vko2()">
-    <input class="nappi" value="Viikko 3" type="button" onclick="vko3()">
-    <input class="nappi1" value="Viikko 4" type="button" onclick="vko4()">
-    <input class="nappi" value="Viikko 5" type="button" onclick="vko5()">
+    <p>Napista klikkaamalla pääset viikon menovinkkiin!</p>
+
+<div class="page-container">
+<div class="container">
+<!-- 
+    Lisätty 28.4.: Kaikki napit ja niiden otsikot näkyviin. 
+    Muistakaa lisätä js-tiedostoon tarvittavat tiedot omista viikoista
+
+    Tää on lähinnä ehdotus, saa muuttaa! :D Ja voidaan myös yhdessä katsoa näitä vielä. t. Kirsi
+ -->
+    <input class="nappi" value="Viikko 21: 20.05. - 26.05." type="button" onclick="vko1()">
+    <input class="nappi1" value="Viikko 22: 27.05. - 02.06." type="button" onclick="vko2()">
+    <input class="nappi" value="Viikko 23: 03.06. - 09.06." type="button" onclick="vko3()">
+
+    <input class="nappi1" value="Viikko 24: 10.06. - 16.06." type="button" onclick="vko4()">
+    <input class="nappi" value="Viikko 25: 17.06. - 23.06." type="button" onclick="vko5()">
+    <input class="nappi1" value="Viikko 26: 24.06. - 30.06." type="button" onclick="vko6()">
+
+    <input class="nappi" value="Viikko 27: 01.07. - 07.07." type="button" onclick="vko7()">
+    <input class="nappi1" value="Viikko 28: 08.07. - 14.07." type="button" onclick="vko8()">
+    <input class="nappi" value="Viikko 29: 15.07. - 21.07." type="button" onclick="vko9()">
+
+    <input class="nappi1" value="Viikko 30: 22.07. - 28.07." type="button" onclick="vko10()">
+    <input class="nappi" value="Viikko 31: 29.07. - 04.08." type="button" onclick="vko11()">
+    <input class="nappi1" value="Viikko 32: 05.08. - 11.08." type="button" onclick="vko12()">
+
+    <input class="nappi" value="Viikko 33: 12.08. - 18.08." type="button" onclick="vko13()">
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -30,5 +50,11 @@
     
 <script src="kesakalenteri.js"></script>
 
+
+<div class="footer">
+    <p>&copy; Kivilahti, Kitov, Kumar & Lampinen 2024<br>Johdanto ohjelmistokehitykseen - SOF001IT1A-3035</p>
+</div>
+
+</div>
 </body>
 </html>
