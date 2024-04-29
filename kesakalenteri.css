@@ -63,7 +63,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   display: none;
   position: fixed; 
   z-index: 1; 
-  padding-top: 5%;
+  padding-top: 3%;
   padding-left: 15%;
   padding-right: 10%;
   
@@ -112,12 +112,12 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 /* Kirsin sisältöjä */
 #kuva-uutela {
   max-height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   margin-top: 20px;
   margin-left: 8%;
 }
 #kartta-Uutela {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   margin-top: 20px;
   margin-left: 3%;
 }
@@ -136,3 +136,48 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   clear: both;
 }
 
+@media only screen and (max-width: 780px) {
+/* säädöt mobiilille? */
+}
+
+/* pienempi tietokoneen näyttö */
+@media only screen and (max-width: 1800px) {
+.nappi {
+  padding: 25px 30px; /* koko */
+} 
+.nappi1 {
+  padding: 25px 30px; /* koko */
+}
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+.page-container {
+  min-height: 85vh;
+}
+}
+
+/* iso näyttö */
+@media only screen and (min-width: 1800px) {
+.nappi {
+  padding: 30px 35px; /* koko */
+}
+.nappi1 {
+  padding: 30px 35px; /* koko */
+}
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+}
+.modal {
+  padding-top: 8%;
+}
+.page-container {
+  min-height: 70vh;
+}
+#kuva-uutela {
+  margin-left: 15%;
+}
+}
