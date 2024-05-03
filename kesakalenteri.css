@@ -1,18 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 h1 {
   font-size: 35px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto";
   text-align: center;
   
 }
 p {
   font-size: 16px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:"Roboto";
   text-align: center;
 }
 a {
   text-decoration: none;
   color: #159159;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:"Roboto";
 }
 a:hover {
   color: #89ae8c
@@ -22,6 +24,7 @@ a:hover {
 Muuten samat paitsi värit,
 padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 .nappi {
+  font-family: "Roboto";
   font-size: 18px;
   padding: 25px 30px; /* koko */
   background-color: #1d5849;
@@ -34,6 +37,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   cursor: pointer;
 }
 .nappi1 {
+  font-family: "Roboto";
   font-size: 18px;
   padding: 25px 30px; /* koko */
   background-color: #41917d;
@@ -80,7 +84,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 .modal-header {
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto";
   padding: 2px 12px;
   background-color: #2b2b2b;
   width: 70%;
@@ -91,7 +95,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 .modal-body {
   color: black;
   font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto";
   padding: 2px 12px;
   background-color: #ffffff;
   width: 70%;
@@ -113,13 +117,32 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 #kuva-uutela {
   max-height: 300px;
   margin-bottom: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 8%;
+  border: solid black 1px;
 }
 #kartta-Uutela {
   margin-bottom: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 3%;
+}
+#kuva-haaga {
+  max-height: 300px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 8%;
+  border: solid black 1px;
+}
+#kartta-haaga {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 3%;
+}
+#helsinki-video {
+  margin-left: 17%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: solid black 1px;
 }
 
 
@@ -180,4 +203,11 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
 #kuva-uutela {
   margin-left: 15%;
 }
+#kuva-haaga {
+  margin-left: 15%;
 }
+#helsinki-video {
+  margin-left: 23%;
+}
+}
+

@@ -24,7 +24,7 @@ function vko1(){
 function vko2(){
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 22: 27.5.-2.6.";
-    document.getElementById("sisalto").innerHTML = "Testi"
+    document.getElementById("sisalto").innerHTML = "Yhdessä ideoitu vinkki tähän?"
 }
 function vko3(){
     if (currentWeekNumber != 23) {
@@ -33,7 +33,7 @@ function vko3(){
     } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 23: 3.-9.6.";
-    document.getElementById("sisalto").innerHTML = "Testi 3";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Haagan alppiruusupuisto</h3> Tämä ainutlaatuinen puisto Haagassa houkuttelee tuhansia kävijöitä joka kesä - liity joukkoon! Kauniiden alppiruusujen ja atsaleoiden kukinta on parhaimmillaan juuri nyt, kesäkuun alussa. <a href='https://yle.fi/a/3-12490680' target='_blank'> Lue lisää täältä!</a> <br><img src='ruusut.jpg' alt='Alppiruusut' id='kuva-haaga'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.5171335871244!2d24.891293676719627!3d60.221820239264545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df620056ad87d%3A0x4e9e52658a59d7f4!2sHaagan%20Alppiruusupuisto!5e0!3m2!1sfi!2sfi!4v1714414137801!5m2!1sfi!2sfi' width='400' height='300' style='border: 1px solid black;' id='kartta-haaga' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>";
     }
 }
 function vko4(){
@@ -67,6 +67,19 @@ function vko6(){
     }
 }
 
+
+
+
+function vko13(){
+    if (currentWeekNumber != 33) {
+       modal.style.display = "none";
+       window.alert("Menovinkki ei saatavilla");
+    } else {
+    modal.style.display = "block";
+    document.getElementById("menovinkki").innerHTML = "Viikko 33: 12.8. - 18.8.";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Taiteiden yö 15.8.</h3>Taiteiden yö on maksuton, monipuolinen kulttuuritapahtuma, joka järjestetään useissa Suomen kaupungeissa elokuussa. Helsingissä tapahtumatarjonta on tunnetusti erittäin laaja, joten jokaiselle löytyy varmasti jotain kiinnostavaa! <a href='https://helsinkifestival.fi/taiteidenyo/' target='_blank'> Lue lisää täältä</a><br> <video id='helsinki-video' width='700' height='auto' autoplay controls><source src='helsinki.mp4' type='video/mp4'> <source src='helsinki.ogg' type='video/ogg'> </video>";
+    }
+}
 
 let span = document.getElementsByClassName("close")[0];
 // Sulkee pop upin x-painikkeesta
