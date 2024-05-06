@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-body {
- background-image: url("tausta1.jpg");
-} 
+/* body {
+ background-image: url("lehdet.jpg");
+} */
 h1 {
   font-size: 35px;
   font-family:"Roboto";
@@ -20,11 +20,11 @@ p {
 }
 a {
   text-decoration: none;
-  color: #497e9a;
+  color: #159159;
   font-family:"Roboto";
 }
 a:hover {
-  color: #6ea6c6;
+  color: #89ae8c
 }
 
 /* Nappien asetukset:
@@ -34,37 +34,28 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   font-size: 18px;
   font-family:"Roboto";
   padding: 25px 30px; /* koko */
-  background-color: #9bb8c7;
-  color: rgb(0, 0, 0);
-  border: 3px solid #5b7684;
+  background-color: #1d5849;
+  color: white;
+  border: 3px solid black;
   border-radius: 35px;
   float: left;
   margin-left: 3%; /* välit */
   margin-bottom: 3%; /* välit */
   cursor: pointer;
-  transition-duration: 0.4s;
 }
 .nappi1 {
   font-size: 18px;
   font-family:"Roboto";
   padding: 25px 30px; /* koko */
-  background-color:  #7698a9;
-  color: rgb(0, 0, 0);
-  border: 3px solid  #5b7684;
+  background-color: #41917d;
+  color: white;
+  border: 3px solid black;
   border-radius: 35px;
   float: left;
   margin-left: 3%; /* välit */
   margin-bottom: 3%; /* välit */
   cursor: pointer; 
-  transition-duration: 0.4s;
 }
-
-.nappi:hover, .nappi1:hover{
-  background-color: #314551;
-  color: #F0F0F0;
-}
-
-
 
 /* Muokkaa kaikkien nappien sijaintia */
 .container {
@@ -101,7 +92,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   font-size: 20px;
   font-family: "Roboto";
   padding: 2px 12px;
-  background-color: #33434d;
+  background-color: #111111;
   width: 60%;
   
 }
@@ -164,66 +155,7 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   margin-top: 25px;
   margin-bottom: 30px;
 }
-#kuva-museo {
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
 
-/* Alexin sisältöjä */
-#kuva-vko8 {
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
-#kuva-vko9 {
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
-
-/* Jussin sisältö */
-#kuva-suomenlinna{
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
-
-#kuva-veneet{
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
-
-#kuva-juhannus{
-  max-height: 300px;
-  margin-bottom: 30px;
-  margin-top: 25px;
-  margin-left: 2%;
-  border: solid black 1px;
-}
-
-#kartta-seurasaari{
-  margin-left: 3%;
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
-
-#kartta-suomenlinna{
-  margin-left: 3%;
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
 
 /* Alatunniste */
 .footer {
@@ -232,9 +164,9 @@ padding säätää kokoa, margin välejä (pitää olla samat molemmissa) */
   bottom: 0;
   width: 100%;
   color: rgb(20, 20, 20);
-  background-color: #b7cdd7;
+  background-color: #ffffff;
   text-align: center;
-  border-top: solid 3px #5b7684;
+  border-top: solid 1px rgb(91, 91, 91);
   clear: both;
 }
 
@@ -287,9 +219,5 @@ h1 {
 }
 #helsinki-video {
   margin-left: 12%;
-}
-
-#kuva-suomenlinna{
-  margin-left: 10%;
 }
 }
