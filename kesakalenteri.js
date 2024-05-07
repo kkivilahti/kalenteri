@@ -124,7 +124,7 @@ function vko12(){
     } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 32: 05.07.-11.08.";
-    document.getElementById("sisalto").innerHTML = "<h3>Pajan puistokonsertti: Behm</h3>BEHMin kaltaisia menestystarinoita on yksi miljoonassa. Draaman kaari viehättää -debyyttialbumillaan ilmiömäiseen suosioon jo vuonna 2020 noussut laulaja-lauluntekijä on kiistatta yksi musiikkikentän suosituimmista tekijöistä tällä vuosikymmenellä. <a href='https://www.hs.fi/menokone/events/96831' target='_blank'>Lue lisää täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3> Aikamatka Vartiosaareen aurinkolautalla </h3> Tutustu idylliseen Vartiosaareen aurinkolautalla! Koe vanhan huvilayhdyskunnan tunnelma, rentoudu luonnon keskellä ja ihastu näköalakallioilta avautuviin maisemiin. Lautta liikennöi päivittäin toukokuusta syyskuuhun, ja liput aikuisille maksavat 5€. Lisätiedot: <a href='https://www.hs.fi/menokone/events/117697?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
     }
 }
 
