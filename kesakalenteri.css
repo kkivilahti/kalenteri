@@ -123,14 +123,15 @@ a:hover {
 }
 
 /* Kirsin sisältöjä */
-#kuva-uutela, #kuva-museo, #kuva-haaga {
+#kuva-uutela, #kuva-museo, #kuva-haaga, #kuva-purjehdus, #kuva-meri {
   max-height: 300px;
   margin-bottom: 30px;
   margin-top: 25px;
   margin-left: 2%;
   border: solid black 1px;
 }
-#kartta-Uutela, #kartta-haaga, #kartta-helsinki {
+
+#kartta-Uutela, #kartta-haaga, #kartta-helsinki, #kartta-vartiosaari {
   margin-bottom: 30px;
   margin-top: 25px;
   margin-left: 3%;
@@ -140,6 +141,11 @@ a:hover {
   margin-top: 25px;
   margin-bottom: 30px;
   border: solid black 1px;
+}
+#kartta-teatteri {
+  margin-left: 3%;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 /* Alexin sisältöjä */
@@ -225,10 +231,10 @@ h1 {
 .page-container {
   min-height: 70vh;
 }
-#kuva-uutela, #kuva-haaga, #kuva-veneet, #kuva-vko8, #kuva-vko9 {
+#kuva-uutela, #kuva-haaga, #kuva-veneet, #kuva-vko8, #kuva-vko9, #kuva-purjehdus {
   margin-left: 3%;
 }
-#helsinki-video {
+#helsinki-video, #kuva-meri {
   margin-left: 4%;
 }
 #kuva-juhannus, #kuva-suomenlinna, #kuva-museo {

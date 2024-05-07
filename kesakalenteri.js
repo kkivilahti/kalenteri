@@ -103,9 +103,8 @@ function vko10(){
     } else {
         modal.style.display = "block";
         document.getElementById("menovinkki").innerHTML = "Viikko 30: 22.07.-28.07.";
-        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Sailing Beginners Course / Purjehduksen alkeiskurssi</h3> Oletko valmis lähtemään purjehtimaan ja tutkimaan jännittävää purjehduksen maailmaa? Alkeiskurssimme on täydellinen aloituspiste kaikille, jotka haluavat oppia navigoimaan avomerillä ja omaksumaan merien vapauden. Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/108811?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
+        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Sailing Beginners Course / Purjehduksen alkeiskurssi</h3> Oletko valmis lähtemään purjehtimaan ja tutkimaan jännittävää purjehduksen maailmaa? Alkeiskurssimme on täydellinen aloituspiste kaikille, jotka haluavat oppia navigoimaan avomerillä ja omaksumaan merien vapauden. Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/108811?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji <br><img src='purjehdus.jpg' alt='purjevene' id='kuva-purjehdus'>";
     }
-
 }
 function vko11(){
     if (currentWeekNumber < 31) {
@@ -114,7 +113,7 @@ function vko11(){
     } else {
         modal.style.display = "block";
         document.getElementById("menovinkki").innerHTML = "Viikko 31: 29.07.-04.08.";
-        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: All inclusive - Äkkilähtö! </h3>Nauti kesäisestä ilmapiiristä ja viihdyttävästä esityksestä Tervasaaren kesäteatterissa Helsingin keskustan tuntumassa. Tarjolla unohtumaton teatterikokemus upeissa merimaisemissa. Lipun hintaan sisältyy monipuolisia aktiviteetteja, kuten uima-allasosasto ja kuohuviiniaamiainen. Varaa lippusi nyt! Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/114768?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
+        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: All inclusive - Äkkilähtö! </h3>Nauti kesäisestä ilmapiiristä ja viihdyttävästä esityksestä Tervasaaren kesäteatterissa Helsingin keskustan tuntumassa. Tarjolla unohtumaton teatterikokemus upeissa merimaisemissa. Lipun hintaan sisältyy monipuolisia aktiviteetteja, kuten uima-allasosasto ja kuohuviiniaamiainen. Varaa lippusi nyt! Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/114768?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji<br><iframe id='kartta-teatteri' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.3963072615984!2d24.965355377316712!3d60.17417234311071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a4a921b1a8d%3A0xcea18f15d9f941a4!2sTeatteri%20Helsinki!5e0!3m2!1sfi!2sfi!4v1715109026851!5m2!1sfi!2sfi' width='600' height='400' style='border:solid black 1px;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>";
     }
 }
 function vko12(){
@@ -124,7 +123,7 @@ function vko12(){
     } else {
         modal.style.display = "block";
         document.getElementById("menovinkki").innerHTML = "Viikko 32: 05.07.-11.08.";
-        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Aikamatka Vartiosaareen aurinkolautalla</h3> Tutustu idylliseen Vartiosaareen aurinkolautalla! Koe vanhan huvilayhdyskunnan tunnelma, rentoudu luonnon keskellä ja ihastu näköalakallioilta avautuviin maisemiin. Lautta liikennöi päivittäin toukokuusta syyskuuhun, ja liput aikuisille maksavat 5€. Lisätiedot: <a href='https://www.hs.fi/menokone/events/117697?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
+        document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Aikamatka Vartiosaareen aurinkolautalla</h3> Tutustu idylliseen Vartiosaareen aurinkolautalla! Koe vanhan huvilayhdyskunnan tunnelma, rentoudu luonnon keskellä ja ihastu näköalakallioilta avautuviin maisemiin. Lautta liikennöi päivittäin toukokuusta syyskuuhun, ja liput aikuisille maksavat 5€. Lisätiedot: <a href='https://www.hs.fi/menokone/events/117697?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji <br><img src='meri.jpg' alt='merimaisema' id='kuva-meri'><iframe id='kartta-vartiosaari'  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5610.80802221222!2d25.065620475909306!3d60.18536338391397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920ec76fb25a6f%3A0xc31b16733822e39c!2sVartiosaari!5e0!3m2!1sfi!2sfi!4v1715109658431!5m2!1sfi!2sfi' width='400' height='300' style='border:solid black 1px;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>";
     }
 }
 
