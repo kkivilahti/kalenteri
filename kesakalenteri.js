@@ -114,7 +114,7 @@ function vko11(){
     } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 31: 29.07.-04.08.";
-    document.getElementById("sisalto").innerHTML = "<h3>Pajan puistokonsertti: Behm</h3>BEHMin kaltaisia menestystarinoita on yksi miljoonassa. Draaman kaari viehättää -debyyttialbumillaan ilmiömäiseen suosioon jo vuonna 2020 noussut laulaja-lauluntekijä on kiistatta yksi musiikkikentän suosituimmista tekijöistä tällä vuosikymmenellä. <a href='https://www.hs.fi/menokone/events/96831' target='_blank'>Lue lisää täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3>All inclusive - Äkkilähtö! </h3>Nauti kesäisestä ilmapiiristä ja viihdyttävästä esityksestä Tervasaaren kesäteatterissa Helsingin keskustan tuntumassa. Tarjolla unohtumaton teatterikokemus upeissa merimaisemissa. Lipun hintaan sisältyy monipuolisia aktiviteetteja, kuten uima-allasosasto ja kuohuviiniaamiainen. Varaa lippusi nyt! Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/114768?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
     }
 }
 function vko12(){
