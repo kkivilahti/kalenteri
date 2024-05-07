@@ -53,7 +53,7 @@ function vko5(){
     //} else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 25: 17.6. - 23.6.";
-    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Seurasaari</h3> Tule kokemaan Seurasaaren luonnon kauneus. Koe Seurasaaren historiallinen museoalue ja kävele läpi kansanpuiston. Äläkä unohda, että on juhannusviikko, joten Seurasaarisäätiö tarjoaa mahdollisuuden tulla juhlistamaan juhannusta 21. kesäkuuta. Sisäänpääsy on maksuton alle 12-vuotiaille ja muille 28€. Hyvää juhannusta kaikille.<br><br>Vinkkaaja: Jussi<br><img src='juhannus.jpg' alt='ranta' id='kuva-juhannus'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7935.928695186066!2d24.874380180682756!3d60.181027300604924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a111718eddb%3A0xe485e638e2ad0e4e!2sSeurasaari!5e0!3m2!1sfi!2sfi!4v1714998138057!5m2!1sfi!2sfi' width='400' height='300' style='border:solid black 1px;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade' id='kartta-seurasaari'></iframe>";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Seurasaari</h3> Tule kokemaan Seurasaaren luonnon kauneus. Koe Seurasaaren historiallinen museoalue ja kävele läpi kansanpuiston. Äläkä unohda, että on juhannusviikko, joten Seurasaarisäätiö tarjoaa mahdollisuuden tulla juhlistamaan juhannusta 21. kesäkuuta. Sisäänpääsy on maksuton alle 12-vuotiaille ja muille 28€. Hyvää juhannusta kaikille!<br><br>Vinkkaaja: Jussi<br><img src='juhannus.jpg' alt='ranta' id='kuva-juhannus'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7935.928695186066!2d24.874380180682756!3d60.181027300604924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a111718eddb%3A0xe485e638e2ad0e4e!2sSeurasaari!5e0!3m2!1sfi!2sfi!4v1714998138057!5m2!1sfi!2sfi' width='400' height='300' style='border:solid black 1px;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade' id='kartta-seurasaari'></iframe>";
 //}
 }
 function vko6(){
@@ -93,7 +93,7 @@ function vko9(){
     //} else {
     modal.style.display = "block"
     document.getElementById("menovinkki").innerHTML = "Viikko 29: 15.07.-21.07.";
-    document.getElementById("sisalto").innerHTML = "<h3>Pajan puistokonsertti: Behm</h3>BEHMin kaltaisia menestystarinoita on yksi miljoonassa. Draaman kaari viehättää -debyyttialbumillaan ilmiömäiseen suosioon jo vuonna 2020 noussut laulaja-lauluntekijä on kiistatta yksi musiikkikentän suosituimmista tekijöistä tällä vuosikymmenellä. <a href='https://www.hs.fi/menokone/events/96831' target='_blank'>Lue lisää täältä!</a><br><br>Vinkkaaja: Aleksandr<br> <img src='viikko9.png' alt='Behm' id='kuva-vko9'>";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Pajan puistokonsertti - Behm</h3>BEHMin kaltaisia menestystarinoita on yksi miljoonassa. Draaman kaari viehättää -debyyttialbumillaan ilmiömäiseen suosioon jo vuonna 2020 noussut laulaja-lauluntekijä on kiistatta yksi musiikkikentän suosituimmista tekijöistä tällä vuosikymmenellä. <a href='https://www.hs.fi/menokone/events/96831' target='_blank'>Lue lisää täältä!</a><br><br>Vinkkaaja: Aleksandr<br> <img src='viikko9.png' alt='Behm' id='kuva-vko9'>";
     //}
 }
 function vko10(){
@@ -103,7 +103,7 @@ function vko10(){
     //} else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 30: 22.07.-28.07.";
-    document.getElementById("sisalto").innerHTML = "<h3>Sailing Beginners Course / Purjehduksen alkeiskurssi</h3> Oletko valmis lähtemään purjehtimaan ja tutkimaan jännittävää purjehduksen maailmaa? Alkeiskurssimme on täydellinen aloituspiste kaikille, jotka haluavat oppia navigoimaan avomerillä ja omaksumaan merien vapauden. Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/108811?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Sailing Beginners Course / Purjehduksen alkeiskurssi</h3> Oletko valmis lähtemään purjehtimaan ja tutkimaan jännittävää purjehduksen maailmaa? Alkeiskurssimme on täydellinen aloituspiste kaikille, jotka haluavat oppia navigoimaan avomerillä ja omaksumaan merien vapauden. Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/108811?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
     //}
 }
 function vko11(){
@@ -113,7 +113,7 @@ function vko11(){
    // } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 31: 29.07.-04.08.";
-    document.getElementById("sisalto").innerHTML = "<h3>All inclusive - Äkkilähtö! </h3>Nauti kesäisestä ilmapiiristä ja viihdyttävästä esityksestä Tervasaaren kesäteatterissa Helsingin keskustan tuntumassa. Tarjolla unohtumaton teatterikokemus upeissa merimaisemissa. Lipun hintaan sisältyy monipuolisia aktiviteetteja, kuten uima-allasosasto ja kuohuviiniaamiainen. Varaa lippusi nyt! Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/114768?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: All inclusive - Äkkilähtö! </h3>Nauti kesäisestä ilmapiiristä ja viihdyttävästä esityksestä Tervasaaren kesäteatterissa Helsingin keskustan tuntumassa. Tarjolla unohtumaton teatterikokemus upeissa merimaisemissa. Lipun hintaan sisältyy monipuolisia aktiviteetteja, kuten uima-allasosasto ja kuohuviiniaamiainen. Varaa lippusi nyt! Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/114768?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
     //}
 }
 function vko12(){
@@ -123,7 +123,7 @@ function vko12(){
    // } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 32: 05.07.-11.08.";
-    document.getElementById("sisalto").innerHTML = "<h3> Aikamatka Vartiosaareen aurinkolautalla </h3> Tutustu idylliseen Vartiosaareen aurinkolautalla! Koe vanhan huvilayhdyskunnan tunnelma, rentoudu luonnon keskellä ja ihastu näköalakallioilta avautuviin maisemiin. Lautta liikennöi päivittäin toukokuusta syyskuuhun, ja liput aikuisille maksavat 5€. Lisätiedot: <a href='https://www.hs.fi/menokone/events/117697?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Aikamatka Vartiosaareen aurinkolautalla</h3> Tutustu idylliseen Vartiosaareen aurinkolautalla! Koe vanhan huvilayhdyskunnan tunnelma, rentoudu luonnon keskellä ja ihastu näköalakallioilta avautuviin maisemiin. Lautta liikennöi päivittäin toukokuusta syyskuuhun, ja liput aikuisille maksavat 5€. Lisätiedot: <a href='https://www.hs.fi/menokone/events/117697?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a><br><br>Vinkkaaja: Teji";
     //}
 }
 
