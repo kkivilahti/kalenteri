@@ -275,21 +275,24 @@ h1 {
 }
 .modal {
   padding-top: 8%;
+  padding-left: 25%;
+}
+.modal-body {
+  width: 50%;
+}
+.modal-header {
+  width: 50%;
 }
 .page-container {
   min-height: 70vh;
 }
-#kuva-uutela {
-  margin-left: 10%;
-}
-#kuva-haaga {
-  margin-left: 10%;
+#kuva-uutela, #kuva-haaga, #kuva-veneet, #kuva-vko8, #kuva-vko9 {
+  margin-left: 3%;
 }
 #helsinki-video {
-  margin-left: 12%;
+  margin-left: 4%;
 }
-
-#kuva-suomenlinna{
-  margin-left: 10%;
+#kuva-juhannus, #kuva-suomenlinna, #kuva-museo {
+  margin-left: 5%;
 }
 }
