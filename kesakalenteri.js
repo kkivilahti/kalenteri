@@ -103,8 +103,9 @@ function vko10(){
     } else {
     modal.style.display = "block";
     document.getElementById("menovinkki").innerHTML = "Viikko 30: 22.07.-28.07.";
-    document.getElementById("sisalto").innerHTML = "<h3>Pajan puistokonsertti: Behm</h3>BEHMin kaltaisia menestystarinoita on yksi miljoonassa. Draaman kaari viehättää -debyyttialbumillaan ilmiömäiseen suosioon jo vuonna 2020 noussut laulaja-lauluntekijä on kiistatta yksi musiikkikentän suosituimmista tekijöistä tällä vuosikymmenellä. <a href='https://www.hs.fi/menokone/events/96831' target='_blank'>Lue lisää täältä!</a>";
+    document.getElementById("sisalto").innerHTML = "<h3>Sailing Beginners Course / Purjehduksen alkeiskurssi</h3> Oletko valmis lähtemään purjehtimaan ja tutkimaan jännittävää purjehduksen maailmaa? Alkeiskurssimme on täydellinen aloituspiste kaikille, jotka haluavat oppia navigoimaan avomerillä ja omaksumaan merien vapauden. Lisätiedot ja varaukset: <a href='https://www.hs.fi/menokone/events/108811?movie=false&isAdvertisement=false' target='_blank'>Täältä!</a>";
     }
+
 }
 function vko11(){
     if (currentWeekNumber < 31) {
