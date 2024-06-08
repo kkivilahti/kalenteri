@@ -27,7 +27,7 @@ function vko2(){
     document.getElementById("sisalto").innerHTML = "<h3>Viikon vinkki: Ilmaistiistai Arkkitehtuurimuseossa ja Designmuseossa</h3>Arkkitehtuurimuseoon ja Designmuseoon on ilmainen sisäänpääsy joka kuun viimeisenä tiistaina koko päivän! Pääset tutustumaan ajankohtaisiin näyttelyihimme sekä nauttimaan ohjelmasta maksutta.<a href='https://www.hs.fi/menokone/events/114560' target='_blank'> Lue lisää täältä!</a><br><br> Yhdessä keksitty vinkki<br><img src='museo.jpg' alt='Museo' id='kuva-museo'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20373.47041711493!2d24.948198241102947!3d60.164013687887255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc85ec2923d%3A0x27f1a8789f80e39!2sArkkitehtuurimuseo!5e0!3m2!1sfi!2sfi!4v1714998290791!5m2!1sfi!2sfi' width='400' height='300' style='border:1px solid black;' id='kartta-Uutela' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
 }
 function vko3(){
-    if (currentWeekNumber <= 23) {
+    if (currentWeekNumber < 23) {
        modal.style.display = "none";
        window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 23");
     } else {
@@ -37,7 +37,7 @@ function vko3(){
     }
 }
 function vko4(){
-    if (currentWeekNumber <= 24) {
+    if (currentWeekNumber < 24) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 24");
     } else {
@@ -47,7 +47,7 @@ function vko4(){
     }
 }
 function vko5(){
-    if (currentWeekNumber <= 25) {
+    if (currentWeekNumber < 25) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 25");
     } else {
@@ -57,7 +57,7 @@ function vko5(){
     }
 }
 function vko6(){
-    if (currentWeekNumber <= 26) {
+    if (currentWeekNumber < 26) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 26");
     } else {
@@ -67,7 +67,7 @@ function vko6(){
    }
 }
 function vko7(){
-    if (currentWeekNumber <= 27) {
+    if (currentWeekNumber < 27) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 27");
     } else {
@@ -77,7 +77,7 @@ function vko7(){
     }
 }
 function vko8(){
-    if (currentWeekNumber <= 28) {
+    if (currentWeekNumber < 28) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 28");
     } else {
@@ -87,7 +87,7 @@ function vko8(){
     }
 }
 function vko9(){
-    if (currentWeekNumber <= 29) {
+    if (currentWeekNumber < 29) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 29");
     } else {
@@ -97,7 +97,7 @@ function vko9(){
     }
 }
 function vko10(){
-    if (currentWeekNumber <= 30) {
+    if (currentWeekNumber < 30) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 30");
     } else {
@@ -107,7 +107,7 @@ function vko10(){
     }
 }
 function vko11(){
-    if (currentWeekNumber <= 31) {
+    if (currentWeekNumber < 31) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 31");
     } else {
@@ -117,7 +117,7 @@ function vko11(){
     }
 }
 function vko12(){
-    if (currentWeekNumber <= 32) {
+    if (currentWeekNumber < 32) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 32");  
     } else {
@@ -128,7 +128,7 @@ function vko12(){
 }
 
 function vko13(){
-    if (currentWeekNumber <= 33) {
+    if (currentWeekNumber < 33) {
         modal.style.display = "none";
         window.alert("Hups! Menovinkki tulee näkyviin vasta viikolla 33");
     } else {
